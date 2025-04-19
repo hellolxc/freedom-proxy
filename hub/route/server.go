@@ -327,7 +327,7 @@ func authentication(secret string) func(http.Handler) http.Handler {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	render.JSON(w, r, render.M{"hello": "mihomo"})
+	render.JSON(w, r, render.M{"hello": "freedomProxy"})
 }
 
 func traffic(w http.ResponseWriter, r *http.Request) {
